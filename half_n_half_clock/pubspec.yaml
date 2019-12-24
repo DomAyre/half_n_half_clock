@@ -1,0 +1,33 @@
+name: half_n_half_clock
+description: Half and Half clock.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_clock_helper:
+    path: ../flutter_clock_helper
+  google_fonts: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/cloudy_icon.png
+    - assets/foggy_icon.png
+    - assets/rainy_icon.png
+    - assets/snowy_icon.png
+    - assets/sunny_icon.png
+    - assets/thunderstorm_icon.png
+    - assets/windy_icon.png
+    - assets/left_bound_light.png
+    - assets/right_bound_light.png
+    - assets/left_bound_dark.png
+    - assets/right_bound_dark.png
